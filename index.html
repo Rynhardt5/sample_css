@@ -6,17 +6,32 @@
     <style>
 
       a {
-      color: red;
+        color: red;
       }
 
       li {
         border: 1px solid black;
       }
 
-      div {        border: 1px solid black;          }
+      li a {
+        color: blue;
+      }
 
-      div a {
-      color: unset;
+      #exec-bio {
+        background-color: lightgray;
+      }
+
+      #orange-background {
+        background-color: orange;
+      }
+
+      .bio-box {
+        border: 1px solid black;
+        background-color: azure;
+      }
+
+      .bio-box a {
+        color: green;
       }
 
     </style>
@@ -35,16 +50,16 @@
       </li> </ul>
 
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box">
+      <a href="http://example.com/" >I'm a link</a>
+    </div>
+    <div id="orange-background" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/">I'm a link</a>
-    </div>
-    <div>
+    <div class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
 
